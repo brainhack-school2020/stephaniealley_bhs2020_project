@@ -1,2 +1,5 @@
-# stephaniealley_bhs2020_project
-TBD
+# Brainhack School 2020 Project
+
+Team contributors: Stephanie Alley
+## Project definition
+Details to be determined
