@@ -16,3 +16,4 @@ I am a third year PhD student at Polytechnique with a background in MRI. My prim
 * Visualization (matplotlib, plotly)
 
 ### Data
+The data should be obtained from an open repository (TBD).
