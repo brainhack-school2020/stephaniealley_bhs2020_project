@@ -3,3 +3,11 @@
 Team contributors: Stephanie Alley
 
 ## Summary
+
+## Project definition
+
+### Background
+
+### Tools
+
+### Data
