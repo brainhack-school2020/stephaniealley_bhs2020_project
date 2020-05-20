@@ -14,6 +14,7 @@ I am a third year PhD student at Polytechnique with a background in MRI. My prim
 * Docker
 * BIDS
 * Visualization (matplotlib, plotly)
+* DataLad
 
 ### Data
 The data should be obtained from an open repository (TBD).
