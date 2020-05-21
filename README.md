@@ -23,3 +23,10 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 
 ### Data
 fMRI brain development dataset based on viewing of short animated film
+
+### Deliverables
+* README.md
+* Jupyter notebook
+* Python script
+* Requirements.txt
+* Presentation slides
