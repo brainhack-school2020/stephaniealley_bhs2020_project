@@ -20,6 +20,7 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 * Docker
 * Git/GitHub
 * Nilearn
+* DataLad
 * Jupyter notebooks
 * Visualization (matplotlib, plotly)
 
