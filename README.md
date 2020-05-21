@@ -2,6 +2,8 @@
 
 Team contributors: Stephanie Alley
 
+![Brain visual](brain-image.jpg)
+
 ## Summary
 
 ## Project definition
