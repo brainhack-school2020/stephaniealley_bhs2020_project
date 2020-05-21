@@ -16,9 +16,10 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 ### Tools
 * Python
 * Docker
+* Git/GitHub
 * BIDS
+* Jupyter notebooks
 * Visualization (matplotlib, plotly)
-* DataLad
 
 ### Data
 The data should be obtained from an open repository (TBD).
