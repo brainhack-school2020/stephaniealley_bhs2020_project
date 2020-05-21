@@ -22,4 +22,4 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 * Visualization (matplotlib, plotly)
 
 ### Data
-The data should be obtained from an open repository (TBD).
+fMRI brain development dataset based on viewing of short animated film
