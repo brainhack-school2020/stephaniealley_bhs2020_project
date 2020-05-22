@@ -25,7 +25,7 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 * Visualization (matplotlib, plotly)
 
 ### Data
-fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)
+fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)<sup>1</sup>
 * 155 subjects
   * 122 children
   * 33 adults
@@ -38,3 +38,4 @@ fMRI brain development dataset based on viewing of short animated film (obtained
 * Presentation slides
 
 ## References
+1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
