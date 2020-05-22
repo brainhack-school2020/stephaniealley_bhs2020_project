@@ -36,3 +36,5 @@ fMRI brain development dataset based on viewing of short animated film (obtained
 * Python script
 * Requirements.txt
 * Presentation slides
+
+## References
