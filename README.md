@@ -25,7 +25,7 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 * Visualization (matplotlib, plotly)
 
 ### Data
-fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)<sup>1</sup>
+rs-fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)<sup>1</sup>
 * 155 subjects
   * 122 children
   * 33 adults
