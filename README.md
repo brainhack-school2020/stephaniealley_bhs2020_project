@@ -33,7 +33,7 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
   * 33 adults
 
 ### Deliverables
-* GitHub repository containing all [aspects] related to the project, including the markdown document, Docker file, requirements.txt, and Jupyter notebooks
+* GitHub repository containing all items related to the project, including the markdown document, Docker file, requirements.txt, and Jupyter notebooks
 * Complete markdown document (README.md) containing all of the relevant project information
 * Docker file to specify the Docker image
 * requirements.txt to specify the Python environment
