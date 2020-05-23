@@ -16,13 +16,13 @@ One important source of variability across studies is a lack of standardization 
 The impact of these choices will be assessed by evaluating the prediction performance of a machine learning model. This model will be based on the Support Vector Regressor model used in Week 1 for age prediction. A separate model will be trained for each preprocessing option. The prediction performance will then be evaluated by calculating the accuracy and mean absolute error of each model.
 
 ### Tools
-* Python
-* Docker
-* Git/GitHub
-* Nilearn
-* DataLad
-* Jupyter notebooks
-* Visualization (plotly)
+* Python for processing, analysis, and visualization
+* Docker for creating an isolated environment for the processing and analysis that can be shared to improve reproducibility
+* Git/GitHub for version control of the project, including the markdown document and the code
+* Nilearn for implementation of the machine learning model
+* DataLad for version control of the data through processing and analysis
+* Jupyter notebooks for accessibility and sharing of the code and analysis
+* Visualization (plotly) for creating interactive figures
 
 ### Data
 rs-fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)<sup>1</sup>
