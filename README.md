@@ -24,7 +24,7 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 * DataLad for version control of the data through processing and analysis
 * Jupyter notebooks for accessibility and sharing of the code, analysis, and visualizations
 * Visualization (plotly) for creating interactive figures
-* Binder for incorporating the GitHub repository, Docker file, and Jupyter notebooks into a live environment that can easily be shared
+* Binder for incorporating the GitHub repository, Docker file, and Jupyter notebooks into a live environment that can be easily shared
 
 ### Data
 rs-fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)<sup>1</sup>
