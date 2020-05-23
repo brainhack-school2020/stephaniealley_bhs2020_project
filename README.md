@@ -31,10 +31,11 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
   * 33 adults
 
 ### Deliverables
-* README.md
-* Jupyter notebook
-* Python script
-* Requirements.txt
+* GitHub repository containing all [aspects] related to the project, including the markdown document, Docker file, requirements.txt, and Jupyter notebooks
+* Complete markdown document (README.md) containing all of the relevant project information
+* Docker file to specify the Docker image
+* requirements.txt to specify the Python environment
+* Jupyter notebook containing the code for the processing and analysis, as well as the visualizations
 * Presentation slides
 
 ## References
