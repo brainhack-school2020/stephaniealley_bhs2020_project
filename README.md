@@ -38,8 +38,8 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
 * Docker file to specify the Docker image
 * requirements.txt to specify the Python environment
 * Jupyter notebook containing the code for the processing and analysis, as well as the visualizations
-* Interactive notebook using Binder
-* Presentation slides
+* Interactive notebook using Binder for reproducible sharing of the entire project
+* Presentation slides for final project presentation
 
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
