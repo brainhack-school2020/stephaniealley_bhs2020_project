@@ -41,5 +41,8 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
 * Interactive notebook using Binder for reproducible sharing of the entire project
 * Presentation slides for final project presentation
 
+#### Week 3 deliverable: data visualization
+The deliverable for week 3 can be launched on [Binder](https://mybinder.org/v2/gh/stephaniealley/stephaniealley_bhs2020_data_visualization/master). This interactive figure makes use of plotly and ipywidgets to display regression plots that illustrate the prediction performance of the SVR model on unseen (test set) data. Plots can be viewed for each atlas and confound option included in this portion of the project analysis.
+
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
