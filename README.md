@@ -12,7 +12,15 @@ Functional MRI (fMRI) is an important modality for studying brain function. Mach
 ### Background
 I am a third year PhD student at Polytechnique with a background in MRI. My primary goal for this project is to become more proficient with tools that further open, reproducible science. Even the most valiant attempts at sharing data and code can fall short in terms of reproducibility, so I aim to incorporate multiple tools and strategies to promote the reliable reproducibility of this project.
 
-One important source of variability across studies is a lack of standardization in preprocessing steps. This project will focus on the effect that preprocessing choices may have on the prediction performance of a machine learning model. Specifically, two processing steps that affect the extraction of functional signal will be examined: atlas choice and confound removal. Four different atlases will be used: functional (BASC multiscale)<sup>2,3</sup>, structural (AAL)<sup>4</sup>, clustering method (Craddock)<sup>5</sup>, and linear decomposition (MSDL)<sup>6</sup>.
+One important source of variability across studies is a lack of standardization in preprocessing steps. This project will focus on the effect that preprocessing choices may have on the prediction performance of a machine learning model. Specifically, two processing steps that affect the extraction of functional signal will be examined: atlas choice and confound removal.
+
+<center><img src="images/pipeline_detail.png"/></center></br>
+
+Four different atlases will be used: functional (BASC multiscale)<sup>2,3</sup>, structural (AAL)<sup>4</sup>, clustering method (Craddock)<sup>5</sup>, and linear decomposition (MSDL)<sup>6</sup>.
+
+<center><img src="images/atlases.png"/></center></br>
+
+ Various confound inclusion/exclusion options will be explored, including cerebral spinal fluid (CSF) signal, white matter (WM) signal, global signal, and motion correction.
 
 The impact of these choices will be assessed by evaluating the prediction performance of a machine learning model. This model will be based on the Support Vector Regressor model used in Week 1 for age prediction. A separate model will be trained for each preprocessing option. The prediction performance will then be evaluated by calculating the accuracy and mean absolute error of each model. The skill of the model will be assessed with repeated 10-fold cross-validation.
 
@@ -31,6 +39,8 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
 * 155 subjects
   * 122 children
   * 33 adults
+
+The dataset is available as derivative data that was pre-processed using fMRIPrep.
 
 ### Deliverables
 * GitHub repository containing all items related to the project, including the markdown document, Docker file, requirements.txt, and Jupyter notebooks
@@ -61,6 +71,24 @@ An interactive figure depicting linear regression plots of model performance on 
 * Jupyter notebook: I was able to create my final presentation in a Jupyter notebook using RISE. This made it possible to include the interactive figure directly within a slide.
 * Plotly: I learned to use plotly, in conjunction with ipywidgets, to create an interactive figure for the final results. This zoomable figure included a dropdown option for choosing an atlas, a slider for choosing a confound, as well as a hover feature that provided detailed information about each point.
 * Binder: I was able to launch the project on Binder for improved reproducibility in replicating this project.
+
+### Results
+
+### Project results
+The connectivity between regions in a particular atlas was calculated as a correlation measure. These correlations differ for each atlas as can be seen for the correlation matrix and connectome of a given subject.
+
+<center><img src="images/connectivity.png"/></center></br>
+
+These differences in connectivity, however, were not found to result in much difference in the prediction performance of the models. In fact, the values of the mean R2 and mean MAE for each atlas using all confounds were fairly similar. The results for the probabilistic atlases were slightly worse, but more work is required before asserting that any such decrease is significant.
+
+| Atlas | Mean R2 | Mean MAE |
+|:-----:|:-------:|:--------:|
+| BASC  |  0.664  |   3.267  |
+| AAL   |  0.617  |   3.610  |
+| CRAD  |  0.526  |   3.641  |
+| MSDL  |  0.520  |   3.825  |
+
+Likewise, little difference was achieved in prediction performance by using alternative confound combinations. The accuracy of models trained using features extracted from probabilistic atlases was found to be somewhat lower than that achieved for the functional and structural atlases, but it cannot be said that there is a significant difference without further analysis.
 
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
