@@ -44,5 +44,15 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
 #### Week 3 deliverable: data visualization
 The deliverable for week 3 can be launched on [Binder](https://mybinder.org/v2/gh/stephaniealley/stephaniealley_bhs2020_data_visualization/master). This interactive figure makes use of plotly and ipywidgets to display regression plots that illustrate the prediction performance of the SVR model on unseen (test set) data. Plots can be viewed for each atlas and confound option included in this portion of the project analysis.
 
+## Results
+
+### Progress overview
+* Week 2: Implementing and practicing strategies and tools learned in Week 1</br>
+The project was envisioned as an extension of the machine learning tutorial presented in Week 1. Initially, a directory structure was created that adheres to the TIER guidelines. A Jupyter notebook was created to contain the code and visualizations. The pre-processed developmental fMRI data was fetched through nilearn. DataLad datasets were created for both the Original_Data and Analysis_Data directories in order to keep track of data manipulation throughout the analysis. Notable changes to the notebook code and/or the data were consistently tracked using Git/Github and DataLad in order to become more familiar with and accustomed to using these tools.
+* Week 3: Expanding upon original machine learning tutorial</br>
+In order to explore the effects that various processing options might have on the prediction performance of a machine learning model, four different atlases were chosen from which to extract features: functional (BASC multiscale), structural (AAL), clustering method (Craddock), and linear decomposition (MSDL). Furthermore, the inclusion/exclusion of various confound options was explored: all confounds, CSF signal, WM signal, global signal, and motion correction. Python code was added/modified, particularly using nilearn and scikit-learn, in order to investigate these processing options. Plotting functions provided by seaborn, matplotlib and nilearn were explored to examine options for visualization of results.
+* Week 4: Visualization of results and project reproducibility</br>
+An interactive figure depicting linear regression plots of model performance on unseen test data was created using plotly. A new Jupyter notebook, bhs2020_project_presentation.ipynb, was created to create the final project presentation using RISE. Binder was used to reproduce the interactive figure as well as the project as a whole.
+
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
