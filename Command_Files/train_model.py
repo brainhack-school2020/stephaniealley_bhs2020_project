@@ -80,9 +80,10 @@ def main():
     X_features = sys.argv[1]
     y_age = sys.argv[2]
     age_class = sys.argv[3]
-    X_train_container, X_val_container, y_train_container, y_val_container = train_val(X_features, y_age, age_class)
-    y_index_all, y_pred_all = model_fit(X_train_container, y_train_container)
-    return y_index_all, y_pred_all
+    print(X_features)
+    #X_train_container, X_val_container, y_train_container, y_val_container = train_val(X_features, y_age, age_class)
+    #y_index_all, y_pred_all = model_fit(X_train_container, y_train_container)
+    #return y_index_all, y_pred_all
 
 if __name__ == "__main__":
     main()
