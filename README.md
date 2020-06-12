@@ -4,6 +4,8 @@ Team contributors: Stephanie Alley
 
 ![Brain visual](images/brain-image.jpg)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brainhack-school2020/stephaniealley_bhs2020_project/master)
+
 ## Summary
 Functional MRI (fMRI) is an important modality for studying brain function. Machine learning models are often used to analyze fMRI data, whether it be a simple classification or regression problem or something more complex. While the focus of a study is often centered on the model architecture, data preprocessing also plays a vital role in a model's success. This project will explore the effect that various preprocessing options may have on the prediction performance of a machine learning model for age prediction using resting state fMRI.
 
