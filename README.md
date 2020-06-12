@@ -56,3 +56,13 @@ An interactive figure depicting linear regression plots of model performance on 
 
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
+
+2. Bellec, P., Rosa-Neto, P., Lyttelton, O. C., Benali, H., & Evans, A. C. (2010). Multi-level bootstrap analysis of stable clusters in resting-state fMRI. NeuroImage, 51(3), 1126–1139. https://doi.org/10.1016/j.neuroimage.2010.02.082
+
+3. Bellec, P. (2013). Mining the hierarchy of resting-state brain networks: Selection of representative clusters in a multiscale structure. Proceedings - 2013 3rd International Workshop on Pattern Recognition in Neuroimaging, PRNI 2013, (August), 54–57. https://doi.org/10.1109/PRNI.2013.23
+
+4. Tzourio-Mazoyer, N., Landeau, B., Papathanassiou, D., Crivello, F., Etard, O., Delcroix, N., … Joliot, M. (2002). Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain. NeuroImage, 15(1), 273–289. https://doi.org/10.1006/nimg.2001.0978
+
+5. Craddock, R. C., James, G. A., Holtzheimer, P. E., Hu, X. P., & Mayberg, H. S. (2012). A whole brain fMRI atlas generated via spatially constrained spectral clustering. Human Brain Mapping, 33(8), 1914–1928. https://doi.org/10.1002/hbm.21333
+
+6. Varoquaux, G., Gramfort, A., Pedregosa, F., Michel, V., & Thirion, B. (2011). Multi-subject dictionary learning to segment an atlas of brain spontaneous activity. Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 6801 LNCS, 562–573. https://doi.org/10.1007/978-3-642-22092-0_46
