@@ -14,7 +14,7 @@ Functional MRI (fMRI) is an important modality for studying brain function. Mach
 ### Background
 I am a third year PhD student at Polytechnique with a background in MRI. My primary goal for this project is to become more proficient with tools that further open, reproducible science. Even the most valiant attempts at sharing data and code can fall short in terms of reproducibility, so I aim to incorporate multiple tools and strategies to promote the reliable reproducibility of this project.
 
-One important source of variability across studies is a lack of standardization in preprocessing steps. This project will focus on the effect that preprocessing choices may have on the prediction performance of a machine learning model. Specifically, two processing steps that affect the extraction of functional signal will be examined: atlas choice and confound removal.
+One important source of variability across studies is a lack of standardization in preprocessing steps. This project will focus on the effect that preprocessing choices may have on the prediction performance of a machine learning model. Specifically, two preprocessing steps that affect the extraction of functional signal will be examined: atlas choice and confound removal.
 
 <center><img src="images/pipeline_detail.png"/></center></br>
 
@@ -34,7 +34,7 @@ The impact of these choices will be assessed by evaluating the prediction perfor
 * DataLad for version control of the data through processing and analysis
 * Jupyter notebooks for accessibility and sharing of the code, analysis, and visualizations
 * Visualization (plotly) for creating interactive figures
-* Binder for incorporating the GitHub repository, Docker file, and Jupyter notebooks into a live environment that can be easily shared
+* Binder for incorporating the GitHub repository, including all files and Jupyter notebooks, into a live environment that can be easily shared
 
 ### Data
 rs-fMRI brain development dataset based on viewing of short animated film (obtained from OpenNeuro as ds000228)<sup>1</sup>
@@ -61,7 +61,7 @@ The deliverable for week 3 can be launched on [Binder](https://mybinder.org/v2/g
 * Week 2: Implementing and practicing strategies and tools learned in Week 1</br>
 The project was envisioned as an extension of the machine learning tutorial presented in Week 1. Initially, a directory structure was created that adheres to the TIER guidelines. After creating a virtual environment in Python, a Jupyter notebook was created to contain the code and visualizations. The pre-processed developmental fMRI data was fetched through nilearn. DataLad datasets were created for both the Original_Data and Analysis_Data directories in order to keep track of data manipulation throughout the analysis. Notable changes to the notebook code and/or the data were consistently tracked using Git/Github and DataLad in order to become more familiar with and accustomed to using these tools.
 * Week 3: Expanding upon original machine learning tutorial</br>
-In order to explore the effects that various processing options might have on the prediction performance of a machine learning model, four different atlases were chosen from which to extract features: functional (BASC multiscale), structural (AAL), clustering method (Craddock), and linear decomposition (MSDL). Furthermore, the inclusion/exclusion of various confound options was explored: all confounds, CSF signal, WM signal, global signal, and motion correction. Python code was added/modified, particularly using nilearn and scikit-learn, in order to investigate these processing options. Plotting functions provided by seaborn, matplotlib and nilearn were explored to examine options for visualization of results.
+In order to explore the effects that various preprocessing options might have on the prediction performance of a machine learning model, four different atlases were chosen from which to extract features: functional (BASC multiscale), structural (AAL), clustering method (Craddock), and linear decomposition (MSDL). Furthermore, the inclusion/exclusion of various confound options was explored: all confounds, CSF signal, WM signal, global signal, and motion correction. Python code was added/modified, particularly using nilearn and scikit-learn, in order to investigate these preprocessing options. Plotting functions provided by seaborn, matplotlib and nilearn were explored to examine options for visualization of results.
 * Week 4: Visualization of results and project reproducibility</br>
 An interactive figure depicting linear regression plots of model performance on unseen test data was created using plotly. A new Jupyter notebook, bhs2020_project_presentation.ipynb, was created to create the final project presentation using RISE. Binder was used to reproduce the interactive figure as well as the project as a whole.
 
