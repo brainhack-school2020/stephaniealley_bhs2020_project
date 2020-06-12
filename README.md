@@ -109,6 +109,9 @@ The project was launched on Binder [here]().
 #### Deliverable 6: Presentation slides
 The slides for the final presentation are located in [bhs2020_project_presentation.ipynb](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project/blob/master/Documents/final_presentation/bhs2020_project_presentation.ipynb) and can also be viewed [here](https://stephaniealley.github.io/bhs2020_project_presentation/).
 
+## Conclusion and acknowledgements
+I am immensely grateful to the entire BHS team for all of their assistance and support throughout the course. This was an invaluable experience that has drastically changed my view of what open, reproducible science might be able to achieve.
+
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
 
