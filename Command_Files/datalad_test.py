@@ -4,7 +4,8 @@ import sys
 
 def main():
     y_age = sys.argv[2]
-    return y_age
+    i = 2
+    return i
 
 if __name__ == "__main__":
     main()
