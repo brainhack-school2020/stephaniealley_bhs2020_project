@@ -43,9 +43,8 @@ rs-fMRI brain development dataset based on viewing of short animated film (obtai
 The dataset is available as derivative data that was pre-processed using fMRIPrep.
 
 ### Deliverables
-* GitHub repository containing all items related to the project, including the markdown document, Docker file, requirements.txt, and Jupyter notebooks
+* GitHub repository containing all items related to the project, including the markdown document, requirements.txt, and Jupyter notebooks
 * Complete markdown document (README.md) containing all of the relevant project information
-* Docker file to specify the Docker image
 * requirements.txt to specify the Python environment
 * Jupyter notebook containing the code for the processing and analysis, as well as the visualizations
 * Interactive notebook using Binder for reproducible sharing of the entire project
@@ -74,7 +73,7 @@ An interactive figure depicting linear regression plots of model performance on 
 
 ### Results
 
-### Project results
+#### Project results
 The connectivity between regions in a particular atlas was calculated as a correlation measure. These correlations differ for each atlas as can be seen for the correlation matrix and connectome of a given subject.
 
 <center><img src="images/connectivity.png"/></center></br>
@@ -89,6 +88,24 @@ These differences in connectivity, however, were not found to result in much dif
 | MSDL  |  0.520  |   3.825  |
 
 Likewise, little difference was achieved in prediction performance by using alternative confound combinations. The accuracy of models trained using features extracted from probabilistic atlases was found to be somewhat lower than that achieved for the functional and structural atlases, but it cannot be said that there is a significant difference without further analysis.
+
+#### Deliverable 1: GitHub repository
+The [GitHub repository](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project) contains the complete markdown document, requirements.txt, and Jupyter notebooks.
+
+#### Deliverable 2: Complete markdown document (README.md)
+This [document](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project/blob/master/README.md) provides all relevant information pertaining to the project, including a project description, goals, and results.
+
+#### Deliverable 3: requirements.txt
+This [file](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project/blob/master/requirements.txt) contains all relevant dependencies required for specifying the Python virtual environment used to carry out the project.
+
+#### Deliverable 4: Jupyter notebooks
+This project contains two notebooks: [rs-fMRI_age_prediction.ipynb](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project/blob/master/Command_Files/rs-fMRI_age_prediction.ipynb) and [bhs2020_project_presentation.ipynb](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project/blob/master/Documents/final_presentation/bhs2020_project_presentation.ipynb). The former notebook contains the code for processing, analysis, and visualization while the latter is composed of the slides for the final project presentation.
+
+#### Deliverable 5: Interactive notebook using Binder
+The project was launched on Binder [here]().
+
+#### Deliverable 6: Presentation slides
+The slides for the final presentation are located in [bhs2020_project_presentation.ipynb](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project/blob/master/Documents/final_presentation/bhs2020_project_presentation.ipynb).
 
 ## References
 1. Richardson, H., Lisandrelli, G., Riobueno-Naylor, A., & Saxe, R. (2018). Development of the social brain from age three to twelve years. Nature Communications, 9(1). https://doi.org/10.1038/s41467-018-03399-2
